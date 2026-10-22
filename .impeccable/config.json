@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "pulsing-dot",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-22T22:01:48.429Z",
+        "reason": "Claude: the blinking .dots is the typing indicator, rendered only while Hermes is streaming a reply with no text yet; status pills are static"
+      }
+    ]
+  }
+}
